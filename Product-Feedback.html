@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Feedback page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="Product-style.css">
+	<link rel="stylesheet" type="text/css" href="Feedback-Style.css">
+</head>
+<body>
+<header id="header">
+		<img src="Logo.png" id="header-img">
+		<h1 id="header-img"> Connect </h1>
+
+		<nav id="nav-bar">
+			<ul>
+				<li><a href="Product-index.html" id="nav-link">Home</a></li>
+				<li><a href="About-index.html" id="nav-link">About</a></li>
+				<li><a href="#" id="nav-link">Services</a></li>
+				<li><a href="#" id="nav-link">PortFolio</a></li>
+				<li><a href="Product-Feedback.html" id="nav-link">Feedback</a></li>
+			</ul>
+		</nav>
+</header>
+<div class="Feedback-container">
+	<form id="form" action="https://www.freecodecamp.org/email-submit">
+		<label for="email" id="email-label"><b>Email Address:</b></label><br><br>
+		<input type="email" id="email" name="email" required placeholder="your valid Email Address *"><br><br>
+		<label for="comment" id="comments-label"><b>Feedback: </b></label><br><br>
+		<textarea name="comment" id="comment"></textarea><br><br>
+		<center><input type="submit" id="submit" name="Submit"></center>
+	</form>
+</div>
+</body>
+</html>
