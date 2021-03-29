@@ -1,0 +1,149 @@
+*{
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+	}
+	body{
+		background-color: #FFFAF0;
+	}
+	#header{
+		width: 100%;
+		height: 80px;
+		background-color: #2F4F4F;
+		position: sticky;
+		top: 0;
+		z-index: 1;
+	}
+	#header-img{
+		float: left;
+		width: 60px;
+		height: 50px;
+		margin: 20px 20px;
+		font-family: 'Lucida Handwriting', cursive;
+		font-size: 40px;
+		color: #FFFFFF;
+	}
+	#nav-bar{
+		float: right;
+	}
+	#nav-bar ul{
+		display: inline-flex;
+	}
+	#nav-bar li{
+		list-style-type: none;
+		padding: 50px 30px;
+	}
+	#nav-bar #nav-link{
+		font-family: 'Lucida Console', monospace;
+		font-size: 20px;
+		text-decoration: none;
+		text-transform: uppercase;
+		color: #FFFFFF;
+	}
+	#nav-bar #nav-link:hover{
+		color: darkorange;
+	}
+
+	/*Content*/
+	}
+	.video-container{
+		width: 80%;
+		height: 500px;
+		border-color: #FFFFFF;
+		margin: 50px auto;
+	}
+	#video{
+		width: 100%;
+		height: 500px;
+
+	}
+	.about-container{
+		width: 80%;
+		height: auto;
+		margin: 20px auto;
+		background-color: red;
+		padding: 10px 10px;
+		background-color: #2F4F4F;
+		border-radius: 10px
+	}
+	.about-container h1{
+		font-family: 'Lucida Handwriting', cursive;
+		font-size: 35px;
+		text-align: center;
+		margin: 20px;
+		text-shadow: 3px 1px #2F4F4F;
+	}
+	.about-container p{
+		font-family: 'Lucida Console', monospace;
+		font-size: 18px;
+		text-align: left;
+		line-height: 2;
+		text-shadow: 3px 1px #2F4F4F;
+	}
+	.Feedback-container{
+		width: 80%;
+		height: 500px;
+		background-color: #2F4F4F;
+		margin: 50px auto;
+		border-radius: 10px;
+		display: flex;
+		flex-direction: row;
+	}
+	#form{
+		width: 80%;
+		height: auto;
+		margin: auto;
+	}
+	#comments-label, #email-label{
+		font-size: 22px;
+		font-family: 'Lucida Console', monospace;
+	}
+	#email{
+		width: 100%;
+		height: 50px;
+		border-radius: 10px;
+	}
+	#comment{
+		width: 100%;
+		height: 150px;
+		border-radius: 10px;
+		resize: none;
+	}
+	#submit{
+		padding: 15px 15px;
+		font-family: 'Lucida Console', monospace;
+		font-size: 18px;
+		border-radius: 10px;
+	}
+
+	/*Responsive*/
+	@media only screen and (max-width: 1024px) {
+		#header{
+			height: 105px;
+	}
+		#nav-bar ul{
+			margin: 60px auto;
+			display: inline-flex;
+	}
+		#nav-bar li{
+			padding: 15px 15px;
+	}
+		#nav-bar #nav-link{
+			font-size: 18px;
+	}	
+	}
+
+	@media only screen and (max-width: 600px) {
+  		#header{
+			height: auto;
+	}
+		#nav-bar{
+			float: none;
+			display: inline-flex;
+	}
+		#nav-bar li{
+			padding: 6px 15px;
+	}
+		#nav-bar #nav-link{
+			font-size: 15px;
+	}
